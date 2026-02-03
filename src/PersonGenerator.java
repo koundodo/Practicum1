@@ -58,11 +58,13 @@ public class PersonGenerator {
 
             }
             writer.close(); // must close the file to seal it and flush buffer
-            System.out.println("Data file written!");
+            System.out.println("Data file written successfully!");
         } catch (IOException e) {
             e.printStackTrace();
         }
         in.close();
+
+
 
     }
 
